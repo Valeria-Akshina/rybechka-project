@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 25px;
+    background-color: pink;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+}
+
+a:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.menu > img {
+    justify-content: flex-start;
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.logo > p {
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img {
+    justify-content: flex-end;
+    height: 40px;
+    width: 40px;
+}
+
+.rel-battom > a {
+    position: relative;
+}
+
+.battom {
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(225, 161, 172);
+    box-shadow: 14px 19px 15px 0px rgba(70, 76, 80, 0.2);
+    padding: 8px 10px;
+    display: none;
+}
+
+.rel-battom:hover > .battom{
+    cursor: pointer;
+    display: block;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 7px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: hotpink;
+    border-radius: 7px;
+    width: 150px;
+}
+
+.main > input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 139, 147);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(129, 160, 219);
+    border: none;
+    padding: 10px 4px;
+
+}
+
+button:focus {
+    background-color: azure;
+}
